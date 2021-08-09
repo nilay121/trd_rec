@@ -14,7 +14,7 @@ git clone https://eicweb.phy.anl.gov/EIC/detectors/ip6.git
 ln -s ../ip6/ip6 athena/ip6
 ```
 
-What is needed: 
+## To start work
 
 - Know how geometry, everything is defined 
    - simplified xml file is below
@@ -35,9 +35,6 @@ What is needed:
        npsim --runType vis --compactFile gemtrd_athena.xml --random.seed 1 --macro macro/forward_trd_vis.mac --outputFile test.root --enableG4GPS --enableQtUI
        ```
 - How to process the events
-
-
-### npsim explained
 
 
 ### npsim explanation
