@@ -12,6 +12,11 @@ EIC GEM TRD reconstruction and analysis using ML and AI
 git clone -b 59-detailed-forward-gem-trd https://eicweb.phy.anl.gov/EIC/detectors/athena.git
 git clone https://eicweb.phy.anl.gov/EIC/detectors/ip6.git
 ln -s ../ip6/ip6 athena/ip6
+ln -s ../ip6/ip6 athena/ip6
+
+cd 
+cmake -B build -S . -DCMAKE_INSTALL_PREFIX=$ATHENA_PREFIX -DCMAKE_CXX_STANDARD=17
+cmake --build build -j4 -- install
 ```
 
 ## To start work
