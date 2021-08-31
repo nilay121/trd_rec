@@ -6,7 +6,7 @@ EIC GEM TRD reconstruction and analysis using ML and AI
 - [Documentation site](https://doc.athena-eic.org/en/latest/)
 - [Tutorial](https://eic.phy.anl.gov/tutorials/eic_tutorial/getting-started/quickstart/)
 - [Detailed GEM TRD MR](https://eicweb.phy.anl.gov/EIC/detectors/athena/-/merge_requests/123)
-- [GPS (particle gun](https://geant4-userdoc.web.cern.ch/UsersGuides/ForApplicationDeveloper/html/GettingStarted/generalParticleSource.html)
+- [GPS (particle gun)](https://geant4-userdoc.web.cern.ch/UsersGuides/ForApplicationDeveloper/html/GettingStarted/generalParticleSource.html)
 - [Containers](https://hub.docker.com/r/eicweb/jug_xl/tags?page=1&ordering=last_updated)
 
 
@@ -76,3 +76,11 @@ root
 > TBrowser tb
 
 ```
+
+## Geant4 topics
+
+ - Geant4 geometry definition
+ - Sensitive volumes
+ - User actions. Event action, stepping action
+ - **Macros / visualization**
+ - **GPS (particle gun)**
