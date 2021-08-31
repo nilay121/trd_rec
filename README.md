@@ -27,7 +27,7 @@ cmake --build build -j4 -- install
    
 - Generate some events (particle gun, no event display)
    ```
-   npsim --runType run --compactFile gemtrd_athena.xml --random.seed 1 --macro macro/forward_trd_gps.mac --outputFile test.root --enableG4GPS
+   npsim --runType run --compactFile gemtrd_athena.xml --random.seed 1 --macro macro/gemtrd_gps.mac --outputFile test.root --enableG4GPS
    ```
 
 - Display geometry (and events maybe)
@@ -37,7 +37,7 @@ cmake --build build -j4 -- install
        ```
     - Geant4 event display (from athena directory)
        ```
-       npsim --runType vis --compactFile gemtrd_athena.xml --random.seed 1 --macro macro/forward_trd_vis.mac --outputFile test.root --enableG4GPS --enableQtUI
+       npsim --runType vis --compactFile gemtrd_athena.xml --random.seed 1 --macro macro/gemtrd_vis.mac --outputFile test.root --enableG4GPS --enableQtUI
        ```
 - How to process the events
 
@@ -65,4 +65,12 @@ Look at variables (search a variable and look at its value)
 
 ```bash
 npdet_info search RICH --value gemtrd_athena.xml
+```
+
+## Root browser
+
+```bash
+root
+> TBrowser tb
+
 ```
