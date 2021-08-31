@@ -7,6 +7,8 @@ EIC GEM TRD reconstruction and analysis using ML and AI
 - [Tutorial](https://eic.phy.anl.gov/tutorials/eic_tutorial/getting-started/quickstart/)
 - [Detailed GEM TRD MR](https://eicweb.phy.anl.gov/EIC/detectors/athena/-/merge_requests/123)
 - [GPS (particle gun](https://geant4-userdoc.web.cern.ch/UsersGuides/ForApplicationDeveloper/html/GettingStarted/generalParticleSource.html)
+- [Containers](https://hub.docker.com/r/eicweb/jug_xl/tags?page=1&ordering=last_updated)
+
 
 ```bash
 git clone -b 59-detailed-forward-gem-trd https://eicweb.phy.anl.gov/EIC/detectors/athena.git
