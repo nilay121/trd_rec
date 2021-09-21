@@ -1,4 +1,8 @@
 click >= 7
-uproot >= 4
+uproot4
 awkward
 numpy
+hist
+hist[plot]
+jupyter
+pandas
